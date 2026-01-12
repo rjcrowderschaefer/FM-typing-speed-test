@@ -6,15 +6,21 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Frontend Mentor | Typing Speed Test</title>
 </head>
 <body>
 <header>
-  <!-- Insert logo left -->
-  Personal best: <!-- PB --> WPM  
+  <div class="header-content">
+  <img src="/assets/images/logo-large.svg" alt="Typing Speed Test logo">
+  <div class="personal-best">
+    <img src="/assets/images/icon-personal-best.svg" alt="Personal Best Icon">
+    <p>Personal best: <!-- PB --> WPM</p>
+  </div>  
+  </div>
 </header>
-<main>  
+<main>
+  <div class="stats-content">  
   WPM: <!-- WPM -->
   Accuracy: <!-- Accuracy -->
   Time: <!-- Time -->
@@ -27,22 +33,23 @@
   Mode:
   Timed (60s)
   Passage
+  </div>
 
   <!-- Passage -->
-
+  <div class="passage-overlay-content">
   Start Typing Test
   Or click the text and start typing
-
+  </div>
   <!-- Test Complete Start -->
 
+  <div class="test-complete-content">
   Test Complete!
   Solid run. Keep pushing to beat your high score.
-
   WPM: <!-- WPM -->
   Accuracy: <!-- Accuracy -->
   Characters: <!-- Correct/Incorrect -->
-
   Go Again
+  </div>
   </main>
   
   <!-- Test Complete End -->
