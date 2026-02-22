@@ -422,11 +422,12 @@ tr:last-child td {
         "footer";
     grid-template-rows: auto 1fr auto;
     height: 100vh;
+    background-color: #121212;
 }
 
 header {
     grid-area: header;
-    background-color: #121212;
+    background-color: #0a0f17;
     margin: 32px 112px 64px 112px;
 }
 
